@@ -127,8 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ControleFluxo.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="operadores.cpp" />
+    <ClCompile Include="Operadores.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

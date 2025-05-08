@@ -19,13 +19,19 @@
     <Filter Include="Source Files\2 - Operadores">
       <UniqueIdentifier>{518e567a-297b-4027-a66a-12b2a9659dac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\3 - Controle de Fluxo">
+      <UniqueIdentifier>{e0f54df9-57ac-402b-ada2-cb79182ade00}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="operadores.cpp">
+    <ClCompile Include="Operadores.cpp">
       <Filter>Source Files\2 - Operadores</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files\1 - Hello World</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleFluxo.cpp">
+      <Filter>Source Files\3 - Controle de Fluxo</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
