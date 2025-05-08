@@ -22,6 +22,9 @@
     <Filter Include="Source Files\3 - Controle de Fluxo">
       <UniqueIdentifier>{e0f54df9-57ac-402b-ada2-cb79182ade00}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\4 - Funcoes">
+      <UniqueIdentifier>{a72c3b49-fd18-4736-aa95-3e2b149bf605}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="ControleFluxo.cpp">
       <Filter>Source Files\3 - Controle de Fluxo</Filter>
+    </ClCompile>
+    <ClCompile Include="Funcoes.cpp">
+      <Filter>Source Files\4 - Funcoes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

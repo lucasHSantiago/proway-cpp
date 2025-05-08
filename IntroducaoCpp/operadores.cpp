@@ -97,25 +97,27 @@ namespace Operadores
         return 0;
     }
 
-    /*
-    Exercício prático:
-    Criar um programa que calcula média e imprime se está aprovado
-    */
-    void Exercicio1()
+    namespace Exercicio
     {
-        double nota1 = 0;
-        cout << "Informe a primeira nota: ";
-        cin >> nota1;
+        /*
+        Criar um programa que calcula média e imprime se está aprovado
+        */
+        void Exercicio1()
+        {
+            double nota1 = 0;
+            cout << "Informe a primeira nota: ";
+            cin >> nota1;
 
-        double nota2 = 0;
-        cout << "Informe a primeira nota: ";
-        cin >> nota2;
+            double nota2 = 0;
+            cout << "Informe a primeira nota: ";
+            cin >> nota2;
 
-        double nota3 = 0;
-        cout << "Informe a primeira nota: ";
-        cin >> nota3;
+            double nota3 = 0;
+            cout << "Informe a primeira nota: ";
+            cin >> nota3;
 
-        double media = (nota1 + nota2 + nota3) / 3;
-        cout << "media = " << media << endl;
+            double media = (nota1 + nota2 + nota3) / 3;
+            cout << "media = " << media << endl;
+        }
     }
 }
