@@ -131,6 +131,7 @@
     <ClCompile Include="Funcoes.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Operadores.cpp" />
+    <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

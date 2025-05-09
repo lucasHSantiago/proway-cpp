@@ -102,7 +102,7 @@ namespace Operadores
         /*
         Criar um programa que calcula média e imprime se está aprovado
         */
-        void Exercicio1()
+        void Exercicio()
         {
             double nota1 = 0;
             cout << "Informe a primeira nota: ";
