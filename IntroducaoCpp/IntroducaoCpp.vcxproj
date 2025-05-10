@@ -133,6 +133,7 @@
     <ClCompile Include="Matrizes.cpp" />
     <ClCompile Include="Operadores.cpp" />
     <ClCompile Include="PonteirosReferencias.cpp" />
+    <ClCompile Include="Strings.cpp" />
     <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

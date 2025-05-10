@@ -34,6 +34,9 @@
     <Filter Include="Source Files\7 - Ponteiros e Referencias">
       <UniqueIdentifier>{abea8c4f-8326-4f74-b754-9ef9a869b805}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\8 - Strings">
+      <UniqueIdentifier>{c85e6667-7f72-486c-84b2-a34d1b103bfc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="PonteirosReferencias.cpp">
       <Filter>Source Files\7 - Ponteiros e Referencias</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Source Files\8 - Strings</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
