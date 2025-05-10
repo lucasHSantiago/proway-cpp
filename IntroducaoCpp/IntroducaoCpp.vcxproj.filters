@@ -31,6 +31,9 @@
     <Filter Include="Source Files\6 - Matrizes">
       <UniqueIdentifier>{276fa91f-09e5-427d-a643-ba42e97db8b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\7 - Ponteiros e Referencias">
+      <UniqueIdentifier>{abea8c4f-8326-4f74-b754-9ef9a869b805}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="Matrizes.cpp">
       <Filter>Source Files\6 - Matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="PonteirosReferencias.cpp">
+      <Filter>Source Files\7 - Ponteiros e Referencias</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
