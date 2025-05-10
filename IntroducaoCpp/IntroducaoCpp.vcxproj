@@ -130,6 +130,7 @@
     <ClCompile Include="ControleFluxo.cpp" />
     <ClCompile Include="Funcoes.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matrizes.cpp" />
     <ClCompile Include="Operadores.cpp" />
     <ClCompile Include="Vetores.cpp" />
   </ItemGroup>

@@ -28,6 +28,9 @@
     <Filter Include="Source Files\5 - Vetores">
       <UniqueIdentifier>{70fc91be-8c96-4e08-97a5-857ee2403cd7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\6 - Matrizes">
+      <UniqueIdentifier>{276fa91f-09e5-427d-a643-ba42e97db8b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="Vetores.cpp">
       <Filter>Source Files\5 - Vetores</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrizes.cpp">
+      <Filter>Source Files\6 - Matrizes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

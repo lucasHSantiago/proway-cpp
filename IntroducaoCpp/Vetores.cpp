@@ -47,6 +47,9 @@ namespace Vetores
 
     namespace Exercicio
     {
+        /*
+        Ler 5 números, calcular média e encontrar o maior valor
+        */
         void Exercicio()
         {
             vector<int> valores(5);
