@@ -37,6 +37,9 @@
     <Filter Include="Source Files\8 - Strings">
       <UniqueIdentifier>{c85e6667-7f72-486c-84b2-a34d1b103bfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\9 - Strucs">
+      <UniqueIdentifier>{235906f0-287c-4d99-8b8a-8f8a1fe9b22d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -62,6 +65,9 @@
     </ClCompile>
     <ClCompile Include="Strings.cpp">
       <Filter>Source Files\8 - Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Source Files\9 - Strucs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

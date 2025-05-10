@@ -9,9 +9,7 @@ namespace Strings
         string nome = "Lucas";
         nome += " Santiago";
 
-        int tamanho = nome.length();
-
-        auto findPosicao = find(nome.begin(), nome.end(), "S");
+        size_t tamanho = nome.length();
 
         string primeiroNome = nome.substr(0, 5);
 
