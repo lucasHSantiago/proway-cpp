@@ -55,6 +55,12 @@
     <Filter Include="Source Files\10 - Classes\4 - Herança Múltipla">
       <UniqueIdentifier>{b87c4bc0-a404-4566-b7dc-cfa8c2d16050}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\11 - Enum">
+      <UniqueIdentifier>{3d535b97-d254-4a1e-9c99-cc9c441e43ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\10 - Classes\5 - Diamond Problem">
+      <UniqueIdentifier>{fbd6afc7-ef0d-48a2-81c8-faeed1a10d5f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -96,6 +102,9 @@
     <ClCompile Include="Polimorfismo.cpp">
       <Filter>Source Files\10 - Classes\3 - Polimorfismo</Filter>
     </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Source Files\11 - Enum</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Funcionario.h">
@@ -109,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="HerancaMultipla.h">
       <Filter>Source Files\10 - Classes\4 - Herança Múltipla</Filter>
+    </ClInclude>
+    <ClInclude Include="DiamondProblem.h">
+      <Filter>Source Files\10 - Classes\5 - Diamond Problem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Enums.cpp" />
     <ClCompile Include="Pikachu.cpp" />
     <ClCompile Include="Pokemon.cpp" />
     <ClCompile Include="Funcionario.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DiamondProblem.h" />
     <ClInclude Include="HerancaMultipla.h" />
     <ClInclude Include="Pikachu.h" />
     <ClInclude Include="Pokemon.h" />
