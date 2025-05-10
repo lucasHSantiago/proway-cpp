@@ -127,15 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Pikachu.cpp" />
+    <ClCompile Include="Pokemon.cpp" />
+    <ClCompile Include="Funcionario.cpp" />
     <ClCompile Include="ControleFluxo.cpp" />
     <ClCompile Include="Funcoes.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrizes.cpp" />
     <ClCompile Include="Operadores.cpp" />
+    <ClCompile Include="Polimorfismo.cpp" />
     <ClCompile Include="PonteirosReferencias.cpp" />
     <ClCompile Include="Strings.cpp" />
     <ClCompile Include="Structs.cpp" />
     <ClCompile Include="Vetores.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HerancaMultipla.h" />
+    <ClInclude Include="Pikachu.h" />
+    <ClInclude Include="Pokemon.h" />
+    <ClInclude Include="Funcionario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

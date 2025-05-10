@@ -16,7 +16,7 @@ namespace Structs
 
     int main()
     {
-        Funcionario funcionario;
+        Funcionario funcionario{};
         funcionario.nome  = "Pedro";
         funcionario.salario = 800.50;
         funcionario.idade = 18;

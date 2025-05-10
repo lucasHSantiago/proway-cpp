@@ -40,6 +40,21 @@
     <Filter Include="Source Files\9 - Strucs">
       <UniqueIdentifier>{235906f0-287c-4d99-8b8a-8f8a1fe9b22d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\10 - Classes">
+      <UniqueIdentifier>{8052ebcf-8b54-4f19-b116-2ae71689d572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\10 - Classes\1 - Definição">
+      <UniqueIdentifier>{fac3f924-e7a8-44fb-aeed-1d760e29804c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\10 - Classes\2 - Herança">
+      <UniqueIdentifier>{77f5aa28-82c8-4a3b-8058-677a1f8d5ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\10 - Classes\3 - Polimorfismo">
+      <UniqueIdentifier>{82fdf4bd-bc17-472e-afe3-d9ca45c4dcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\10 - Classes\4 - Herança Múltipla">
+      <UniqueIdentifier>{b87c4bc0-a404-4566-b7dc-cfa8c2d16050}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -69,5 +84,31 @@
     <ClCompile Include="Structs.cpp">
       <Filter>Source Files\9 - Strucs</Filter>
     </ClCompile>
+    <ClCompile Include="Funcionario.cpp">
+      <Filter>Source Files\10 - Classes\1 - Definição</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+    </ClCompile>
+    <ClCompile Include="Pikachu.cpp">
+      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+    </ClCompile>
+    <ClCompile Include="Polimorfismo.cpp">
+      <Filter>Source Files\10 - Classes\3 - Polimorfismo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Funcionario.h">
+      <Filter>Source Files\10 - Classes\1 - Definição</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon.h">
+      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+    </ClInclude>
+    <ClInclude Include="Pikachu.h">
+      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+    </ClInclude>
+    <ClInclude Include="HerancaMultipla.h">
+      <Filter>Source Files\10 - Classes\4 - Herança Múltipla</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
