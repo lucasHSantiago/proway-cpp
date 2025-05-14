@@ -10,7 +10,7 @@ namespace Enums
 
         enum TipoCliente
         {
-            Padrao = 1,
+            //Padrao = 1, // Erro de redefinição
         };
 
         int main()

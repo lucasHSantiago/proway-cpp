@@ -37,29 +37,35 @@
     <Filter Include="Source Files\8 - Strings">
       <UniqueIdentifier>{c85e6667-7f72-486c-84b2-a34d1b103bfc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\9 - Strucs">
+    <Filter Include="Source Files\10 - Strucs">
       <UniqueIdentifier>{235906f0-287c-4d99-8b8a-8f8a1fe9b22d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\10 - Classes">
+    <Filter Include="Source Files\11 - Classes">
       <UniqueIdentifier>{8052ebcf-8b54-4f19-b116-2ae71689d572}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\10 - Classes\1 - Definição">
+    <Filter Include="Source Files\11 - Classes\1 - Definição">
       <UniqueIdentifier>{fac3f924-e7a8-44fb-aeed-1d760e29804c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\10 - Classes\2 - Herança">
+    <Filter Include="Source Files\11 - Classes\2 - Herança">
       <UniqueIdentifier>{77f5aa28-82c8-4a3b-8058-677a1f8d5ab9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\10 - Classes\3 - Polimorfismo">
+    <Filter Include="Source Files\11 - Classes\3 - Polimorfismo">
       <UniqueIdentifier>{82fdf4bd-bc17-472e-afe3-d9ca45c4dcb1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\10 - Classes\4 - Herança Múltipla">
+    <Filter Include="Source Files\11 - Classes\4 - Herança Múltipla">
       <UniqueIdentifier>{b87c4bc0-a404-4566-b7dc-cfa8c2d16050}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\11 - Enum">
+    <Filter Include="Source Files\11 - Classes\5 - Diamond Problem">
+      <UniqueIdentifier>{fbd6afc7-ef0d-48a2-81c8-faeed1a10d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\12 - Enum">
       <UniqueIdentifier>{3d535b97-d254-4a1e-9c99-cc9c441e43ee}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\10 - Classes\5 - Diamond Problem">
-      <UniqueIdentifier>{fbd6afc7-ef0d-48a2-81c8-faeed1a10d5f}</UniqueIdentifier>
+    <Filter Include="Source Files\9 - Templates">
+      <UniqueIdentifier>{da73d090-264e-4abc-874c-494043a52517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\11 - Classes\6 - Template Class">
+      <UniqueIdentifier>{1c7881b4-0a36-46d9-9eb8-8270cf30bfa2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -88,39 +94,45 @@
       <Filter>Source Files\8 - Strings</Filter>
     </ClCompile>
     <ClCompile Include="Structs.cpp">
-      <Filter>Source Files\9 - Strucs</Filter>
+      <Filter>Source Files\10 - Strucs</Filter>
     </ClCompile>
     <ClCompile Include="Funcionario.cpp">
-      <Filter>Source Files\10 - Classes\1 - Definição</Filter>
+      <Filter>Source Files\11 - Classes\1 - Definição</Filter>
     </ClCompile>
     <ClCompile Include="Pokemon.cpp">
-      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+      <Filter>Source Files\11 - Classes\2 - Herança</Filter>
     </ClCompile>
     <ClCompile Include="Pikachu.cpp">
-      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+      <Filter>Source Files\11 - Classes\2 - Herança</Filter>
     </ClCompile>
     <ClCompile Include="Polimorfismo.cpp">
-      <Filter>Source Files\10 - Classes\3 - Polimorfismo</Filter>
+      <Filter>Source Files\11 - Classes\3 - Polimorfismo</Filter>
     </ClCompile>
     <ClCompile Include="Enums.cpp">
-      <Filter>Source Files\11 - Enum</Filter>
+      <Filter>Source Files\12 - Enum</Filter>
+    </ClCompile>
+    <ClCompile Include="Templates.cpp">
+      <Filter>Source Files\9 - Templates</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Funcionario.h">
-      <Filter>Source Files\10 - Classes\1 - Definição</Filter>
+      <Filter>Source Files\11 - Classes\1 - Definição</Filter>
     </ClInclude>
     <ClInclude Include="Pokemon.h">
-      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+      <Filter>Source Files\11 - Classes\2 - Herança</Filter>
     </ClInclude>
     <ClInclude Include="Pikachu.h">
-      <Filter>Source Files\10 - Classes\2 - Herança</Filter>
+      <Filter>Source Files\11 - Classes\2 - Herança</Filter>
     </ClInclude>
     <ClInclude Include="HerancaMultipla.h">
-      <Filter>Source Files\10 - Classes\4 - Herança Múltipla</Filter>
+      <Filter>Source Files\11 - Classes\4 - Herança Múltipla</Filter>
     </ClInclude>
     <ClInclude Include="DiamondProblem.h">
-      <Filter>Source Files\10 - Classes\5 - Diamond Problem</Filter>
+      <Filter>Source Files\11 - Classes\5 - Diamond Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateClass.h">
+      <Filter>Source Files\11 - Classes\6 - Template Class</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

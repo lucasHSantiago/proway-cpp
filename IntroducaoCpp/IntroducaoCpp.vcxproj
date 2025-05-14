@@ -140,6 +140,7 @@
     <ClCompile Include="PonteirosReferencias.cpp" />
     <ClCompile Include="Strings.cpp" />
     <ClCompile Include="Structs.cpp" />
+    <ClCompile Include="Templates.cpp" />
     <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,7 @@
     <ClInclude Include="Pikachu.h" />
     <ClInclude Include="Pokemon.h" />
     <ClInclude Include="Funcionario.h" />
+    <ClInclude Include="TemplateClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
