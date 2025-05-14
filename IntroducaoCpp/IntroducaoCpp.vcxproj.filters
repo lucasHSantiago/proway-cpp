@@ -37,6 +37,9 @@
     <Filter Include="Source Files\8 - Strings">
       <UniqueIdentifier>{c85e6667-7f72-486c-84b2-a34d1b103bfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\9 - Templates">
+      <UniqueIdentifier>{da73d090-264e-4abc-874c-494043a52517}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\10 - Strucs">
       <UniqueIdentifier>{235906f0-287c-4d99-8b8a-8f8a1fe9b22d}</UniqueIdentifier>
     </Filter>
@@ -58,14 +61,14 @@
     <Filter Include="Source Files\11 - Classes\5 - Diamond Problem">
       <UniqueIdentifier>{fbd6afc7-ef0d-48a2-81c8-faeed1a10d5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\11 - Classes\6 - Template Class">
+      <UniqueIdentifier>{1c7881b4-0a36-46d9-9eb8-8270cf30bfa2}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\12 - Enum">
       <UniqueIdentifier>{3d535b97-d254-4a1e-9c99-cc9c441e43ee}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\9 - Templates">
-      <UniqueIdentifier>{da73d090-264e-4abc-874c-494043a52517}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\11 - Classes\6 - Template Class">
-      <UniqueIdentifier>{1c7881b4-0a36-46d9-9eb8-8270cf30bfa2}</UniqueIdentifier>
+    <Filter Include="Source Files\12 - Cast">
+      <UniqueIdentifier>{4fe6e5cb-12f9-4a44-a936-f7b8648dd655}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="Templates.cpp">
       <Filter>Source Files\9 - Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Casts.cpp">
+      <Filter>Source Files\12 - Cast</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
