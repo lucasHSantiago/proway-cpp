@@ -7,3 +7,9 @@
 *.obj
 *.ilk
 *.idb
+*.dll*
+*.lib
+*.exp
+
+Debug
+Release
