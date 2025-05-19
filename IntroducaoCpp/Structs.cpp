@@ -25,6 +25,34 @@ namespace Structs
         return 0;
     }
 
+    namespace PaddingPack
+    {
+
+        /*
+        Em C++, o compilador insere bytes extras (chamados de padding) dentro de structs para alinhamento.
+        O objetivo é otimizar o acesso à memória — por exemplo, em processadores que leem 4 ou 8 bytes de uma vez.
+        */
+
+        //O tamanho real é 8 e não 5
+        struct ExemploPadding
+        {
+            char a;   // 1 byte
+            int b;    // 4 bytes
+        };
+
+        /*
+        Packing é o processo de remover ou controlar o padding usando diretivas do compilador como `#pragma pack`.
+        */
+
+        #pragma pack(push, 1)
+        struct ExemploPack
+        {
+            char a;  // 1 byte
+            int b;   // 4 bytes
+        };
+        #pragma pack(pop)
+    }
+
     namespace Exercicio
     {
         /*
