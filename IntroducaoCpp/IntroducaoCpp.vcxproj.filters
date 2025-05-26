@@ -70,6 +70,9 @@
     <Filter Include="Source Files\12 - Cast">
       <UniqueIdentifier>{4fe6e5cb-12f9-4a44-a936-f7b8648dd655}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\13 - Testes">
+      <UniqueIdentifier>{07afac02-3bba-4f83-b953-0466df06cc03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -119,6 +122,9 @@
     </ClCompile>
     <ClCompile Include="Casts.cpp">
       <Filter>Source Files\12 - Cast</Filter>
+    </ClCompile>
+    <ClCompile Include="Teste.cpp">
+      <Filter>Source Files\13 - Testes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
