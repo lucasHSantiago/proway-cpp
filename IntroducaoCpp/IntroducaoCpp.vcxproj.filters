@@ -73,6 +73,9 @@
     <Filter Include="Source Files\13 - Testes">
       <UniqueIdentifier>{07afac02-3bba-4f83-b953-0466df06cc03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\14 - Threads">
+      <UniqueIdentifier>{d3376268-ed2b-4b8b-861c-91efb93da61d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -125,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="Teste.cpp">
       <Filter>Source Files\13 - Testes</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>Source Files\14 - Threads</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

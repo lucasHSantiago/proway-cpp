@@ -143,6 +143,7 @@
     <ClCompile Include="Structs.cpp" />
     <ClCompile Include="Templates.cpp" />
     <ClCompile Include="Teste.cpp" />
+    <ClCompile Include="Threads.cpp" />
     <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
   <ItemGroup>

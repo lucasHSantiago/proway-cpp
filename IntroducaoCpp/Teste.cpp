@@ -64,7 +64,7 @@ namespace InjecaoDependencia
         class IDatabase
         {
         public:
-            void query(std::string s) = 0;
+            virtual void query(std::string s) = 0;
         };
 
         class Service {
@@ -118,5 +118,52 @@ namespace EvitarStatic
         void process(Logger& logger) {
             logger.log("error");
         }
+    }
+}
+
+#include <iostream>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+
+namespace WaitGroup
+{
+    std::mutex mtx;
+    std::condition_variable cv;
+    int counter = 0;
+
+    void worker(int id, int total)
+    {
+        std::cout << "Thread " << id << " trabalhando...\n";
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+
+        {
+            std::lock_guard<std::mutex> lock(mtx);
+            counter++;
+            if (counter == total) {
+                cv.notify_one(); // avisa que todas terminaram
+            }
+        }
+
+        std::cout << "Thread " << id << " terminou.\n";
+    }
+
+    int main()
+    {
+        const int total_threads = 5;
+        counter = 0;
+
+        for (int i = 0; i < total_threads; ++i) {
+            std::thread(worker, i, total_threads).detach(); // threads independentes
+        }
+
+        {
+            std::unique_lock<std::mutex> lock(mtx);
+            //Fica esperando até todas as threads terminarem
+            cv.wait(lock, [&] { return counter == total_threads; });
+        }
+
+        std::cout << "Todas as threads terminaram.\n";
+        return 0;
     }
 }
