@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Mock">
+      <UniqueIdentifier>{0bcb204c-f5dc-4c39-a1cf-dae6628b301c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mock">
+      <UniqueIdentifier>{75fb889f-2878-4a51-b935-5d48316fd6f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -30,6 +36,12 @@
     <ClInclude Include="MathHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IDataFetcher.h">
+      <Filter>Header Files\Mock</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor.h">
+      <Filter>Header Files\Mock</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -46,6 +58,12 @@
     </ClCompile>
     <ClCompile Include="MathHelper.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>Source Files\Mock</Filter>
+    </ClCompile>
+    <ClCompile Include="IDataFetcher.cpp">
+      <Filter>Source Files\Mock</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

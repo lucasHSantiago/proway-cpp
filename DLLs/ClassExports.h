@@ -10,7 +10,7 @@
 
 #ifdef _DEBUG
   #ifdef _WIN64
-    #pragma comment(lib, "..\\DLLs\\x64\\Debug\\DLLs.lib")
+    #pragma comment(lib, "..\\x64\\Debug\\DLLs.lib")
   #else
     #pragma comment(lib, "..\\DLLs\\Debug\\dlls.lib")
   #endif
