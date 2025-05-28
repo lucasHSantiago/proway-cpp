@@ -41,8 +41,10 @@ namespace Functor
             std::cout << mult5(3) << std::endl;  // Imprime 15
 
             //Lambada equivalente
-            auto mult2 = [fator = 2](int x) { return x * fator; };
-            std::cout << mult2(10); // Imprime 20
+            //auto mult2 = [fator = 2](int x) { return x * fator; };
+            //std::cout << mult2(10); // Imprime 20
+
+            return 0;
         }
     }
 
@@ -61,6 +63,8 @@ namespace Functor
             std::vector<int> v = { 5, 1, 4, 2 };
             std::sort(v.begin(), v.end(), ComparadorDecrescente());
             for (int n : v) std::cout << n << ' '; // Imprime: 5 4 2 1
+
+            return 0;
         }
     }
 }

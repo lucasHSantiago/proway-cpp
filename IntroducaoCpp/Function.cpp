@@ -72,6 +72,8 @@ namespace Function
             // Bind para associar o método ao objeto calc
             std::function<int(int, int)> func = std::bind(&Calculadora::multiplicar, &calc, std::placeholders::_1, std::placeholders::_2);
             std::cout << func(4, 5) << std::endl; // Imprime 20
+
+            return 0;
         }
     }
 
@@ -86,6 +88,8 @@ namespace Function
         {
             executaOperacao(10, 5, [](int a, int b) { return a + b; }); // Soma
             executaOperacao(10, 5, [](int a, int b) { return a - b; }); // Subtrai
+
+            return 0;
         }
     }
 }

@@ -88,6 +88,9 @@
     <Filter Include="Source Files\17 - Functor">
       <UniqueIdentifier>{6680d844-617d-45df-b71e-9c7a9bc884ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\19 - Scope Guard">
+      <UniqueIdentifier>{066999fc-2b2d-4560-b187-c42a7e0087cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -155,6 +158,9 @@
     </ClCompile>
     <ClCompile Include="OperatorOverload.cpp">
       <Filter>Source Files\16 - Operator Overload</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeGuard.cpp">
+      <Filter>Source Files\19 - Scope Guard</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

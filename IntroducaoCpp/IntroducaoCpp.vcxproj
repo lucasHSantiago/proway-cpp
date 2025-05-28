@@ -143,6 +143,7 @@
     <ClCompile Include="Polimorfismo.cpp" />
     <ClCompile Include="PonteirosReferencias.cpp" />
     <ClCompile Include="RValue.cpp" />
+    <ClCompile Include="ScopeGuard.cpp" />
     <ClCompile Include="Strings.cpp" />
     <ClCompile Include="Structs.cpp" />
     <ClCompile Include="Templates.cpp" />
