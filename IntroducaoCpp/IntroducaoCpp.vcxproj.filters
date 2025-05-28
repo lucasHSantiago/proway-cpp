@@ -91,6 +91,9 @@
     <Filter Include="Source Files\19 - Scope Guard">
       <UniqueIdentifier>{066999fc-2b2d-4560-b187-c42a7e0087cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\20 - Inline">
+      <UniqueIdentifier>{8333f875-462c-4909-bec5-d3cf921d7dd7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -161,6 +164,9 @@
     </ClCompile>
     <ClCompile Include="ScopeGuard.cpp">
       <Filter>Source Files\19 - Scope Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="Inline.cpp">
+      <Filter>Source Files\20 - Inline</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
