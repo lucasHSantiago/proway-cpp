@@ -172,3 +172,90 @@ namespace Async
         return 0;
     }
 }
+
+#include <iostream>
+#include <thread>
+#include <vector>
+#include <atomic>
+
+namespace Atomic
+{
+
+    std::atomic<int> contador(0);
+
+    void incrementa(int vezes)
+    {
+        for (int i = 0; i < vezes; ++i) {
+            ++contador; // Operação atômica
+        }
+    }
+
+    int main()
+    {
+        const int numThreads = 4;
+        const int numIncrementos = 100000;
+
+        std::vector<std::thread> threads;
+
+        // Cria várias threads que incrementam o contador
+        for (int i = 0; i < numThreads; ++i)
+        {
+            threads.emplace_back(incrementa, numIncrementos);
+        }
+
+        // Espera todas terminarem
+        for (auto& t : threads)
+        {
+            t.join();
+        }
+
+        std::cout << "Valor final do contador: " << contador << std::endl;
+        // Esperado: numThreads * numIncrementos = 400000
+
+        return 0;
+    }
+}
+
+#include <concurrent_vector.h>
+
+namespace Concurrent
+{
+    void adicionar_valores(Concurrency::concurrent_vector<int>& vec, int inicio, int fim)
+    {
+        for (int i = inicio; i < fim; ++i)
+        {
+            vec.push_back(i); // Thread-safe
+        }
+    }
+
+    int main()
+    {
+        Concurrency::concurrent_vector<int> vec;
+
+        const int num_threads = 4;
+        const int valores_por_thread = 1000;
+        std::vector<std::thread> threads;
+
+        for (int t = 0; t < num_threads; ++t)
+        {
+            int inicio = t * valores_por_thread;
+            int fim = inicio + valores_por_thread;
+            threads.emplace_back(adicionar_valores, std::ref(vec), inicio, fim);
+        }
+
+        for (auto& th : threads)
+        {
+            th.join();
+        }
+
+        std::cout << "Total de elementos: " << vec.size() << std::endl;
+        std::cout << "Primeiros 10 elementos: ";
+        for (int i = 0; i < 10 && i < vec.size(); ++i)
+        {
+            std::cout << vec[i] << " ";
+        }
+        std::cout << std::endl;
+
+        return 0;
+    }
+}
