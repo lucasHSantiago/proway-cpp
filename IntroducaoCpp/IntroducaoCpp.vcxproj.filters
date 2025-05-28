@@ -76,6 +76,9 @@
     <Filter Include="Source Files\14 - Threads">
       <UniqueIdentifier>{d3376268-ed2b-4b8b-861c-91efb93da61d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\15 - Right Value">
+      <UniqueIdentifier>{09e9f982-c6a4-4054-b6a0-25cf80d18f3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -131,6 +134,9 @@
     </ClCompile>
     <ClCompile Include="Threads.cpp">
       <Filter>Source Files\14 - Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="RValue.cpp">
+      <Filter>Source Files\15 - Right Value</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
