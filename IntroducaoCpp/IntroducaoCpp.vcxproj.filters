@@ -97,6 +97,9 @@
     <Filter Include="Source Files\21 - Exception">
       <UniqueIdentifier>{bced42d2-8383-40e2-956f-7c4408ffe9ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\22 - Union">
+      <UniqueIdentifier>{c375e2e7-19b4-4fca-aeda-0516ad0f9753}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -173,6 +176,9 @@
     </ClCompile>
     <ClCompile Include="Exception.cpp">
       <Filter>Source Files\21 - Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Union.cpp">
+      <Filter>Source Files\22 - Union</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

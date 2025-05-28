@@ -151,6 +151,7 @@
     <ClCompile Include="Templates.cpp" />
     <ClCompile Include="Teste.cpp" />
     <ClCompile Include="Threads.cpp" />
+    <ClCompile Include="Union.cpp" />
     <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
   <ItemGroup>
