@@ -94,6 +94,9 @@
     <Filter Include="Source Files\20 - Inline">
       <UniqueIdentifier>{8333f875-462c-4909-bec5-d3cf921d7dd7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\21 - Exception">
+      <UniqueIdentifier>{bced42d2-8383-40e2-956f-7c4408ffe9ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -167,6 +170,9 @@
     </ClCompile>
     <ClCompile Include="Inline.cpp">
       <Filter>Source Files\20 - Inline</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\21 - Exception</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

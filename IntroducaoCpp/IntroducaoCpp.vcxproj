@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Casts.cpp" />
     <ClCompile Include="Enums.cpp" />
+    <ClCompile Include="Exception.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="Functor.cpp" />
     <ClCompile Include="Inline.cpp" />
