@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Casts.cpp" />
     <ClCompile Include="Enums.cpp" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="Functor.cpp" />
+    <ClCompile Include="OperatorOverload.cpp" />
     <ClCompile Include="Pikachu.cpp" />
     <ClCompile Include="Pokemon.cpp" />
     <ClCompile Include="Funcionario.cpp" />

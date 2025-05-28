@@ -79,6 +79,15 @@
     <Filter Include="Source Files\15 - Right Value">
       <UniqueIdentifier>{09e9f982-c6a4-4054-b6a0-25cf80d18f3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\18 - std::function">
+      <UniqueIdentifier>{c7285722-da6c-47c2-a869-ff66359b9e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\16 - Operator Overload">
+      <UniqueIdentifier>{7f66d984-a413-4b8d-b97e-520118650ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\17 - Functor">
+      <UniqueIdentifier>{6680d844-617d-45df-b71e-9c7a9bc884ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operadores.cpp">
@@ -137,6 +146,15 @@
     </ClCompile>
     <ClCompile Include="RValue.cpp">
       <Filter>Source Files\15 - Right Value</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files\18 - std::function</Filter>
+    </ClCompile>
+    <ClCompile Include="Functor.cpp">
+      <Filter>Source Files\17 - Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverload.cpp">
+      <Filter>Source Files\16 - Operator Overload</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
